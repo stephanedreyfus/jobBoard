@@ -1,15 +1,15 @@
-/** Div to show current task.
+/** Div to show current job.
  * Contains arrow components, but should only show if move is possible
  */
 
  import React from 'react';
 
-const TaskCard = (props) => {
+const JobCard = (props) => {
   return (
     <li>
-      {props.task}
+      {props.job}
     </li>
   )
 }
 
-export default TaskCard;
+export default JobCard;

@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-const NameCard = (props) => {
+const StatusType = (props) => {
     return (
         <div>
-            {props.name}
+            {props.status}
         </div>
     )
 }
 
-export default NameCard;
+export default StatusType;

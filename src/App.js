@@ -1,5 +1,5 @@
 import React from 'react';
-import TaskBoard from './TaskBoard';
+import JobBoard from './JobBoard';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-      <TaskBoard />
+      <JobBoard />
     </div>
   );
 }
