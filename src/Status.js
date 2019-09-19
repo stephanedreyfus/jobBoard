@@ -15,8 +15,8 @@ class Status extends Component {
       <div>
         <StatusType status={this.props.status} />
         <ul>
-          {this.props.jobs.map((job) => 
-            <JobCard job={job}/>
+          {this.props.jobs.map((job, idx) => 
+            <JobCard job={job} key={idx}/>
           )}
         </ul>
       </div>

@@ -28,11 +28,12 @@ class JobBoard extends Component {
     }
   }
 
+  // FIXME for keys. Idx will change alot!
   render() {
     return (
       <section>
-      {this.state.people.map(columns => 
-        <Status status={columns.name} jobs={columns.jobs} />
+      {this.state.columns.map((column, idx) => 
+        <Status status={column.status} jobs={column.jobs} key={idx}/>
       )}
       </section>
     )
